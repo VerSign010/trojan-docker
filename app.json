@@ -8,7 +8,7 @@
 			"value": "test"
 		}
 	},
-	"website": "http://www.google.com",
-	"repository": "https://github.com/kanon411/trojan-docker",
+	"website": "https://github.com/VerSign010/trojan-docker",
+	"repository": "https://github.com/VerSign010/trojan-docker",
 	"stack": "container"
 }
