@@ -1,4 +1,6 @@
 FROM alpine:latest
+RUN apk update
+RUN apk upgrade
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl bash openssl
 ADD /trojan/config.json /trojan/config.json
 RUN chmod +x /trojan/config.json
