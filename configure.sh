@@ -5,8 +5,8 @@ cat <<-EOF > /trojan/config.json
     "run_type": "server",
     "local_addr": "0.0.0.0",
     "local_port": ${PORT},
-    "remote_addr": "127.0.0.1",
-    "remote_port": 8080,
+    "remote_addr": "0.0.0.0",
+    "remote_port": 80,
     "password": [
         "${PASSWORD}"
     ],
